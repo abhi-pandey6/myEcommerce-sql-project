@@ -1,10 +1,6 @@
--- =====================================
--- FULL PROJECT: 20 CUSTOMERS + ORDERS + PRODUCTS + ORDERDETAILS + PAYMENTS + JOIN QUERY
--- =====================================
 CREATE DATABASE IF NOT EXISTS ecommerce_db;
 USE ecommerce_db;
 
--- 1. CUSTOMERS
 CREATE TABLE IF NOT EXISTS Customers (
     customer_id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(100),
